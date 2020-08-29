@@ -1,0 +1,12 @@
+how graph stores inputed things. There are two common ways....
+
+1. adjacency matrix (large memory)
+2. adjacency list (less memory)
+
+"here adjacent means |~next to something~|"
+
+*theer is a noteable thing that, if graph is undirected the matrix become semetric, mat[i][j] == mat[j][i]
+
+* when adjacency matrix is useful?
+-> when to chech if there is a edge betwueen u,v node, then it's easy to check in matrix like: matrix[u][v].
+   but in case of adjacency list, need use loop to check.
