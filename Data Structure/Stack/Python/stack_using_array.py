@@ -5,7 +5,7 @@ class Stack:
 
     def push(self, new_element):
         self.top += 1
-        if len(self.stack) < self.top:
+        if len(self.stack) <= self.top:
             pritn("Satck is overflow")
         else:
             self.stack[self.top] = new_element
